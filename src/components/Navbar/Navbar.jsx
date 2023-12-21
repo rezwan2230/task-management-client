@@ -5,10 +5,10 @@ const Navbar = () => {
     const { user, logOut } = useAuth()
     const menu = <>
         <li className="mr-5 font-bold text-[#1B4242]"><Link to='/'>Home</Link></li>
-        <li className="mr-5 font-bold text-[#1B4242]"><Link to=''>About</Link></li>
-        <li className="mr-5 font-bold text-[#1B4242]"><Link to=''>Contact</Link></li>
+        <li className="mr-5 font-bold text-[#1B4242]"><Link to='/about'>About</Link></li>
+        <li className="mr-5 font-bold text-[#1B4242]"><Link to='/contact'>Contact</Link></li>
         {
-            user && <li className="mr-5 font-bold text-[#1B4242]"><Link to='/dashboard'>Dashboard</Link></li>
+            user && <li className="mr-5 font-bold text-[#1B4242]"><Link to='/dashboard/overview'>Dashboard</Link></li>
         }
     </>
 
