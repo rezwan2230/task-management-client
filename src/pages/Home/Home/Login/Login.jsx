@@ -1,5 +1,5 @@
 import { Link, useNavigate } from 'react-router-dom';
-import loginImg from '../../../../assets/LoginImg.png'
+import loginImg from '../../../../assets/LoginImgNext.png'
 import { Button, Input, Password } from "rizzui";
 import useAuth from '../../../../hooks/useAuth';
 import { useForm } from "react-hook-form"

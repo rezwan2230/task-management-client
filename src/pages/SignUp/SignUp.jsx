@@ -2,7 +2,7 @@ import { Button, Input, Password } from "rizzui";
 import useAuth from "../../hooks/useAuth";
 import { Link, useNavigate } from "react-router-dom";
 import { useForm } from "react-hook-form";
-import SignUpImg from '../../assets/LoginImg.png'
+import SignUpImg from '../../assets/signUp.png'
 
 
 const SignUp = () => {
@@ -72,7 +72,7 @@ const SignUp = () => {
                 </div>
 
                 <div className="flex-1 ">
-                    <img className='pt-[25%]' src={SignUpImg} alt="" />
+                    <img className='pt-[20%]' src={SignUpImg} alt="" />
                 </div>
             </div>
 

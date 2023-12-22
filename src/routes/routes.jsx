@@ -10,6 +10,7 @@ import Dashboard from "../layouts/Dashboard";
 import About from "../pages/About/About";
 import Contact from "../pages/Contact/Contact";
 import OverView from "../pages/OverView/OverView";
+import AddTask from "../pages/AddTask/AddTask";
 
 export const router = createBrowserRouter([
     {
@@ -37,6 +38,10 @@ export const router = createBrowserRouter([
         {
           path : 'overview',
           element : <OverView></OverView>
+        },
+        {
+          path : 'addtask',
+          element : <AddTask></AddTask>
         }
       ]
     },
